@@ -5,7 +5,6 @@ local LocalPlayer = PlayerService.LocalPlayer
 local ESPLibrary = {}
 local PlayerTable = {}
 local NPCTable = {}
-local NPCFolder = Workspace.Custom:FindFirstChild("-1") or Workspace.Custom:FindFirstChild("1")
 
 local function CalculateBox(Model)
 	local CFrame, Size = Model:GetBoundingBox()
